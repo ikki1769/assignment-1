@@ -1,129 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title> My First Webpage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Zhanatay Ismail</h1>
-    <h2>SE-2423</h2>
-    <h3>About me</h3>
-    <p>Hello my name is Ismail. I'm 19 years old. I love football</p>
-    <img src="inswkup.jpg" alt="My photo" width="300" height="400">
-    <h2> My hobbies:</h2>
-    <ol>
-        <li>Football</li>
-        <li>Programming</li>
-        <li>Reading books</li>
-    </ol>
-    <h2> My favorite websites:</h2>
-    <ul>
-        <li> <a href="https://open.spotify.com/?flow_ctx=c10b45c1-7bfd-45a2-8316-d0da58075d6e%3A1744516756">Spotify</a> </li>
-        <li> <a href="https://www.youtube.com/">Youtube</a></li>
-    </ul>
-    <!-- 4 step: button -->
-    <button type="button">Click Me:33</button>
-    <!-- 5 step: table -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://open.spotify.com/collection/tracks">Music</a></li>
+            <li><a href="https://admission.astanait.edu.kz/">My University</a></li>
+        </ul>
+    </nav>
 
-<h2 align="center">Weekly Class Schedule</h2>
+    <header class="hero">
+        <div id="hero-content">
+            <img src="inswkup.jpg" alt="Profile Picture" class="hero-img">
+            <div class="hero-text">
+                <h1 class="hero-title">Ismail Zhanatay</h1>
+                <h2 class="hero-subtitle">Frontend Developer</h2>
+                <p>Hello, Ily my girlfriend and other cool things</p>
+                <p>Welcome to my personal page!</p>
+            </div>
+        </div>
+    </header>
 
-<table border="1" cellpadding="8" cellspacing="0" align="center">
-  <tr bgcolor="#4CAF50">
-    <th><font color="white">Subject</font></th>
-    <th><font color="white">Day</font></th>
-    <th><font color="white">Time</font></th>
-  </tr>
+    <section>
+        <div class="mood">
+            <p>Feeling productive and creative today 💻. A bit tired but motivated 🚀. Excited for the weekend! 😊</p>
+        </div>
+    </section>
 
-  <tr bgcolor="#e6ffe6">
-    <td>Operating Systems</td>
-    <td rowspan="5" bgcolor="#ccffcc">Monday</td>
-    <td>08:00–09:50</td>
-  </tr>
-  <tr bgcolor="#f2fff2">
-    <td>Design and Analysis of Algorithms</td>
-    <td>16:00–17:50</td>
-  </tr>
-  <tr bgcolor="#e6ffe6">
-    <td>WEB Technologies 1</td>
-    <td>18:00–18:50</td>
-  </tr>
-  <tr bgcolor="#f2fff2">
-    <td>Software Design Patterns</td>
-    <td>19:00–19:50</td>
-  </tr>
-  <tr bgcolor="#e6ffe6">
-    <td>Russian Language 1</td>
-    <td>20:00–21:50</td>
-  </tr>
+    <section>
+        <h2 class="section-heading">My Interests</h2>
+        <div class="cards-container">
+            <div class="card">
+                <h3>My Hobbies</h3>
+                <ol>
+                    <li>Programming</li>
+                    <li>Football</li>
+                    <li>Reading</li>
+                </ol>
+            </div>
+            <div class="card">
+                <h3>Favorite Websites</h3>
+                <ul>
+                    <li><a href="https://open.spotify.com/collection/tracks">Spotify</a></li>
+                    <li><a href="https://github.com">GitHub</a></li>
+                    <li><a href="https://anilib.me/ru/collections">AniLib</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-  <tr bgcolor="#fff0e6">
-    <td>Operating Systems</td>
-    <td rowspan="2" bgcolor="#ffd9b3">Tuesday</td>
-    <td>12:00–12:50</td>
-  </tr>
-  <tr bgcolor="#ffe6cc">
-    <td>Russian Language</td>
-    <td>16:00–17:50</td>
-  </tr>
+    <section>
+        <h2 class="section-heading">My Lovely Girlfriend 💖</h2>
+        <div id="girlfriend-container">
+            <img src="akynya2.jpg" alt="My Beautiful Girlfriend" class="girlfriend-img">
+            <div class="girlfriend-text">
+                <h3>Akniet</h3>
+                <p>This is my girlfriend, and I'm ready to give her the entire planet 💖</p>
+            </div>
+          </div>
+    </section>
 
-  <tr bgcolor="#e6f0ff">
-    <td>Software Design Patterns</td>
-    <td bgcolor="#b3d1ff">Wednesday</td>
-    <td>16:00–17:50</td>
-  </tr>
+    <section>
+        <h2 class="section-heading">Favorite Anime</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="naruto.jpg" alt="anime1" class="gallery-img">
+                <p class="gallery-title">Naruto</p>
+            </div>
+            <div class="gallery-item">
+                <img src="gorod.jpg" alt="anime2" class="gallery-img">
+                <p class="gallery-title">Erased</p>
+            </div>
+            <div class="gallery-item">
+                <img src="weathering.jpg" alt="anime3" class="gallery-img">
+                <p class="gallery-title">Weathering With You</p>
+            </div>
+        </div>
+    </section>
 
-  <tr bgcolor="#fff0f5">
-    <td>Software Design Patterns</td>
-    <td rowspan="2" bgcolor="#ffb3cc">Thursday</td>
-    <td>12:00–13:55</td>
-  </tr>
-  <tr bgcolor="#ffe6f0">
-    <td>Design and Analysis of Algorithms</td>
-    <td>18:00–19:50</td>
-  </tr>
-
-  <tr bgcolor="#f9f2ec">
-    <td>WEB Technologies 1</td>
-    <td rowspan="2" bgcolor="#d9b38c">Friday</td>
-    <td>13:05–14:50</td>
-  </tr>
-  <tr bgcolor="#fff5e6">
-    <td>Design and Analysis</td>
-    <td>15:00–15:50</td>
-  </tr>
-  <!-- 6 step: Layout table -->
-</table> 
-<table border="1"  width="100%" cellpadding="9" cellspacing="0">
-  <tr>
-    <td width="25%" bgcolor="lightblue" valign="top">
-      <h3>Menu</h3>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Schedule</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contacts</a></li>
-      </ul>
-    </td>
-
-    <td bgcolor="white" valign="top">
-      <h2>Welcome to My Page </h2>
-      <p>Here you can find information about me, my hobbies, and my study schedule.</p>
-    </td>
-  </tr>
-</table>
-<!-- 7 step: emojis -->
-<h2>Today i feel happy &#128526;, but a little bit sleepy &#128564;, See you later &#128578; </h2>
-<!-- 8 step: form -->
- <form>
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name"><br><br>
-
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email"><br><br>
-
-  <label for="color">Favorite Color:</label><br>
-  <input type="color" id="color" name="color"><br><br>
-
-  <input type="submit" value="Submit">
-</form>
+    <section>
+        <h2 class="section-heading">Contact Form</h2>
+        <div class="form-container">
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-input" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-input" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-input" placeholder="Your Favorite Movie" required>
+                </div>
+                <div class="form-group">
+                    <label for="fav-color">Choose your favorite color:</label>
+                    <input type="color" id="fav-color" class="form-input" value="#4e54c8" required>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </section>
 </body>
 </html>

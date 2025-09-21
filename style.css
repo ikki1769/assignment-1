@@ -1,0 +1,239 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+    padding: 60px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#hero-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.hero-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    color: #2d3436;
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    color: #636e72;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/* Section Styling */
+section {
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: 0 auto 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.section-heading {
+    text-align: center;
+    color: #4e54c8;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+/* Mood Section */
+.mood {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px;
+    background: linear-gradient(120deg, #fdfcfb, #e2d1c3);
+    border-left: 4px solid #e2d1c3;
+}
+
+/* Cards Section */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #4e54c8;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Girlfriend Section */
+#girlfriend-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.girlfriend-img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 3px solid #ff6b6b;
+}
+
+.girlfriend-text {
+    max-width: 500px;
+}
+
+.girlfriend-text h3 {
+    color: #ff6b6b;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.girlfriend-text p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+/* Gallery Section */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-item {
+    width: 200px;
+    text-align: center;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+.gallery-title {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/* Form Styling */
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.submit-btn {
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: opacity 0.3s;
+    display: block;
+    margin: 0 auto;
+}
